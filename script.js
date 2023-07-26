@@ -1,5 +1,5 @@
 //your JS code here. If required.
- document.querySelector('form').addEventListener('submit', (event) => {
+document.querySelector('form').addEventListener('submit', (event) => {
     event.preventDefault();
     const age = document.querySelector('#age').value;
     const name = document.querySelector('#name').value;
@@ -17,3 +17,5 @@
       alert(`Oh sorry ${name}. You aren't old enough.`);
     });
   });
+
+
